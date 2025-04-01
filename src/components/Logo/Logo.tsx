@@ -23,7 +23,7 @@ export const Logo = (props: Props) => {
       fetchPriority={priority}
       decoding="async"
       className={clsx('max-w-[9.375rem] w-full h-[34px]', className)}
-      src="https://raw.githubusercontent.com/payloadcms/payload/main/packages/ui/src/assets/payload-logo-light.svg"
+      src="https://github.com/harshluhar/ams-search-vercel/blob/f50022675a7fb00b1fee3b64f72667ab179edce3/public/ams-logo.svg"
     />
   )
 }
