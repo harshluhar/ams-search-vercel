@@ -17,13 +17,13 @@ export const Logo = (props: Props) => {
     /* eslint-disable @next/next/no-img-element */
     <img
       alt="Payload Logo"
-      width={193}
-      height={34}
+      width={200}
+      height="auto"
       loading={loading}
       fetchPriority={priority}
       decoding="async"
-      className={clsx('max-w-[9.375rem] w-full h-[34px]', className)}
-      src="https://raw.githubusercontent.com/harshluhar/ams-search-vercel/646835a1eed5daa690335ac2669c69c8b50b854d/public/ams-logo.png"
+      className={clsx('max-w-[12.5rem] w-full h-auto', className)}
+      src="https://raw.githubusercontent.com/harshluhar/ams-search-vercel/refs/heads/main/public/ams-logo.png"
     />
   )
 }
