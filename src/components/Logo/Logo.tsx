@@ -23,7 +23,7 @@ export const Logo = (props: Props) => {
       fetchPriority={priority}
       decoding="async"
       className={clsx('max-w-[9.375rem] w-full h-[34px]', className)}
-      src="https://github.com/harshluhar/ams-search-vercel/blob/f50022675a7fb00b1fee3b64f72667ab179edce3/public/ams-logo.svg"
+      src="https://raw.githubusercontent.com/harshluhar/ams-search-vercel/646835a1eed5daa690335ac2669c69c8b50b854d/public/ams-logo.png"
     />
   )
 }
